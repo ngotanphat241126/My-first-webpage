@@ -1,0 +1,83 @@
+
+/* ==========================================================================
+   1. Quy tắc cho thẻ BODY (Font chữ & Kích thước tổng thể)
+   ========================================================================== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    background-color: #f7fafc; /* Nền xám rất nhạt */
+    color: #1a202c;           /* Chữ xám đen để dễ đọc */
+}
+
+/* ==========================================================================
+   2. Quy tắc cho HEADER & H1 (Bố cục phần đầu trang)
+   ========================================================================== */
+header {
+    background-color: #1a365d; /* Màu xanh thẫm (Deep Blue) */
+    padding: 30px 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #ffffff; /* Chữ trắng trên nền xanh thẫm -> Đạt chuẩn tương phản WAVE */
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* ==========================================================================
+   3. Quy tắc cho NAV & LI (Thanh điều hướng và Danh sách)
+   ========================================================================== */
+nav {
+    background-color: #2b6cb0; /* Màu xanh vừa (Navi Blue) */
+    padding: 10px 0;
+}
+
+/* Yêu cầu bắt buộc: Đổi display và đặt độ rộng cho list item */
+li {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+
+/* Thêm một chút style cho thẻ link trong nav để giao diện đẹp hơn (Tùy chọn thêm) */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==========================================================================
+   4. Quy tắc cho MAIN & P (Nội dung chính và Đoạn văn)
+   ========================================================================== */
+main {
+    background-color: #ffffff; /* Nền trắng tinh */
+    font-size: 1.1rem;        /* Kích thước chữ lớn hơn body một chút */
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;           /* Căn giữa phần nội dung chính */
+}
+
+p {
+    line-height: 1.8; /* Tăng khoảng cách dòng giúp văn bản thoáng và dễ đọc */
+    color: #2d3748;   /* Màu chữ đủ độ tương phản với nền trắng */
+    margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   5. Quy tắc cho FOOTER (Chân trang)
+   ========================================================================== */
+footer {
+    background-color: #1a365d; /* Màu xanh thẫm đồng bộ với Header */
+    color: #ffffff;            /* Chữ trắng đạt chuẩn tương phản */
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
